@@ -4,67 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first html</title>
+    <title>Simple site</title>
+    <link href="styles.css" rel="stylesheet">
     </head>
 <body>
 
+<div id="1" class="section-one">
+    <h1 id="h1">Hey, I'm Vicky.</h1>
+    <p>a programmer </p>
+    
+    <div class="bi-sec1">
+        <div class="left">
+            <img id="image1" src="images/vicpix.png" alt="my picture" >
+        </div>
+        
+        <div class="right">
+            <p id="about">About Me.</p>
+            <p id="text"></p>
+         I joined stutern 1.2 cohort to get me started as a webdeveloper. To major as a frontend developer I have been taught Git, HTML and Css. Looking forward to learning JS and every other modules to becoming a web developer.
+        </div>
+    </div>
+</div>
 
-    <h1 id="h1">  Abodunrin Victoria Oluwaferanmi </h1>
-    <h2 id="h2">    Web Developer  </h2>
+<div id="2" class="section-two">
+    
+          <p id="skills">My Skills.</p>
+    
+    <img id="image2" src="images/43865.jpg" alt="computer image" >
+    <p id="small-heading">Programming<p>
 
-    <p id= "reason">We are in the digital world, where all businesses are moving global. 
-        Becoming <b>a web developer</b> is to become a creator of websites, creating an easy to interact websites that suit people needs, business
-     mission and goals, solving any kind of problems entangled with online experience, reaching the success of every business.
-     </p>
+    <p>text comes here--------------------------------------------------</p>
+    
+    <img id="image3" src="images/downloadimage.jpg" alt="computer">
+   <p id="small-heading">Frontend development</p>
+    <p>text come here------------------------------</p>
+</div>
 
-    <p> <b>Website to recreate in the nearest future</b>
-    <a id="external_link" href="https://www.myfitnesspal.com/">Click Website </a>
-    </p>
-    <img src="images/developer-1.jpg" alt="a developer picture">
+  <div id="3" class="section-three">
 
-    <p> <b>Web developer Services</b> </p>
+    <p id="header"> Services<p>
+
+ <p> Here is a list of what I can offer</p>
     <ol id="ordered" type="1">
-<li id="service1">  UI design </li>
-<li id="service2"> UX design </li>
-<li id="service3"> Quality Assurance </li>
+<li id="service1">  Web-development </li>
+<li id="service2"> Programming </li>
+<li id="service3"> Product Design </li>
 
+  </div>
 
-    </ol>
+   <div id="4" class="section-four">
 
-    <p><b>Countries in the world</b></p>
+       <p id="header"> Would you love to do business with me?</p>
+       <p id="touch">Get in touch.</p>
 
-        <ul id="unordered">
-         <li id="country1"> Nigeria</li>
-        <li id="country2">Canada</li>
-        <li id="country3">United State Of America</li>
+           <form>
+        <p><label for="Full Name">Enter your full name</label> </p>
+        <input id= "name"  type="text">
 
-    </ul>
+       <p> <label for="email">Enter your email</label></p>
+       <input id= "email_address"  type="email">
 
-    <form>
-        <label for="Full Name">Full Name:</label> 
-        <input id= "name"  type="text"  placeholder="Full Name"><br>
-        <label for="email">Email:</label>
-       <input id= "email_address"  type="email" placeholder="Email address"><br>
+<div class="genderHobbies">
+
+    <div class="gender">
+        <label for="Gender"> Enter your gender </label><br>
+<input id="radio-male"    type="radio" name="gender" value="male">Male<br>
+<input id="radio-female"  type="radio" name="gender" value="female">Female<br>
+<input id="radio-others"  type="radio" name="gender" value="others">others<br>
+</div>
+
+<div class="hobbies">
+<label for="hobbies"> Hobbies </label><br>
+    <input type="checkbox" id="checkbox-cricket" >Cricket<br>
+    <input type="checkbox" id="checkbox-football">Football<br>
+    <input type="checkbox" id="checkbox-hockey">Hockey
+    </div>
+<p>
+       <label>Type your comment:</label><br>
          <textarea id= "text_area"></textarea>
-<br>
-        <p> <label for="Gender"> <b>Gender</b> </label></p>
-<input id="radio_male"    type="radio" name="gender" value="male">Male
-<input id="radio_female"  type="radio" name="gender" value="female">Female
-
-
-<p><label for="hobbies"> <b>Hobbies</b> </label></p>
- <input type="checkbox" id="check-box">Music
-    <input type="checkbox" id="check-box" checked>Travelling
-    <input type="checkbox" id="check-box">Designing
-    <input type="checkbox" id="check-box">Photography
-    <input type="checkbox" id="check-box">Coding
-   
+         </p>
+ </div>
 
     </form>
-<br>
-<button type="submit"  id="submit_button">Submit</button>
 
-<footer id="footer">   <p>© 2022 VickyShinny</p></footer>
-    
+
+<button type="submit"  id="Submit_button">Submit</button>
+
+</div>
+
+<div id="5" class="section-five">
+    <footer id="footer">
+        <div id="links">
+            <a href="#" > Twitter</a>
+            <a href="#" > LinkedIn</a> 
+        </div>
+
+        <p>© 2022 VickyShinny</p>
+    </footer>
+</div>
+
 </body>
 </html>
